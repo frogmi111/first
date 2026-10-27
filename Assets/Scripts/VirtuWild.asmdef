@@ -1,0 +1,14 @@
+{
+  "name": "VirtuWild",
+  "rootNamespace": "VirtuWild",
+  "references": ["Unity.InputSystem", "Unity.XR.Interaction.Toolkit"],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

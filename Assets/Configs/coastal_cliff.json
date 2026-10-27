@@ -1,0 +1,1 @@
+{"id":"coastal_cliff","displayName":"海岸悬崖·侧风预演","skybox":"high_altitude_clouds","route":[{"id":"gate_01","position":[2,16,22],"radius":5},{"id":"seabird_02","position":[-6,14,46],"radius":4},{"id":"wind_flag_03","position":[5,12,70],"radius":6}],"safeHover":[0,20,4]}

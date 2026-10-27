@@ -1,0 +1,2 @@
+using UnityEngine;
+namespace VirtuWild { public sealed class VirtuWildBootstrap:MonoBehaviour { public TrainingSessionController session; public LocalTrainingStore store; void Awake(){if(!session)session=FindObjectOfType<TrainingSessionController>(); if(!store)store=FindObjectOfType<LocalTrainingStore>();} public void SelectCanyon(){session.Begin(ScenarioId.Canyon);} public void SelectCoastalCliff(){session.Begin(ScenarioId.CoastalCliff);} } }

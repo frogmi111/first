@@ -1,0 +1,1 @@
+{"id":"canyon","displayName":"峡谷·风脊预演","skybox":"high_altitude_clouds","route":[{"id":"gate_01","position":[0,14,24],"radius":5},{"id":"rock_02","position":[-5,12,48],"radius":4},{"id":"banner_03","position":[4,10,72],"radius":6}],"safeHover":[0,18,4]}

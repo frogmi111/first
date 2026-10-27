@@ -1,0 +1,2 @@
+using UnityEngine;
+namespace VirtuWild { public sealed class TrainingObstacle:MonoBehaviour { public string obstacleId; public float warningDistance=8f; public TrainingSessionController session; bool warned; void OnTriggerEnter(Collider other){ if(other.CompareTag("Player")){ session?.RecordCollision(); warned=false; }} void Update(){ if(!session||warned) return; var p=GameObject.FindGameObjectWithTag("Player"); if(p&&Vector3.Distance(transform.position,p.transform.position)<warningDistance){warned=true; session.RecordDetection(false,warningDistance);}} } }
